@@ -1,0 +1,30 @@
+#menu {
+    padding: 5%;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    height: 20px;
+}
+
+#menu li {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#menu li a {
+    display: block;
+    line-height: 23px;
+    text-decoration: none;
+    padding: 20px 20px 20px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 50px;
+}
+
+#menu li:hover {
+    border-bottom: 1px solid #fff;
+}
+
+body {
+    background: url("hopital.jpg");
+}
